@@ -96,7 +96,6 @@ function displayProducts() {
 function addToCard(name, price) {
   cardCount++;
   subTotal += price;
-  console.log(subTotal);
   const cardCountContainer = document.getElementById('card-count');
   const cardTotalContainer = document.getElementById('card-total');
   const subTotalContainer = document.getElementById('sub-total');
